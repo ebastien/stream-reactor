@@ -17,8 +17,8 @@
 project(":kafka-connect-hbase") {
 
     ext {
-        hbaseClientVersion = "1.2.0"
-        hbaseServerVersion = "1.2.0"
+        hbaseClientVersion = "1.3.0"
+        hbaseServerVersion = "1.3.0"
     }
 
     dependencies {
