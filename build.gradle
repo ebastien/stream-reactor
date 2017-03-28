@@ -195,7 +195,7 @@ allprojects {
 
     task compile(dependsOn: 'compileScala')
 
-    task fatJar(dependsOn: [clean, test, shadowJar])
+    task fatJar(dependsOn: [clean, shadowJar])
 
     task collectJars(type: Copy) {
         into "${buildDir}/libs-dependencies"
